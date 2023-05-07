@@ -1,0 +1,20 @@
+{
+  "__suj__" : [
+    "Eu"
+  ],
+  "__verb__" : [
+    "Fazer", 
+    "Realizar", 
+    "Querer", 
+    "Reservar", 
+    "Pagar"
+  ],
+  "__obj__" : [
+    "Quarto", 
+    "Suit", 
+    "Dormitorio", 
+    "Check-in", 
+    "Check-out",
+    "Boleto"
+  ]
+}

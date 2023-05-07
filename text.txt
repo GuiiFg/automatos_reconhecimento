@@ -1,0 +1,6 @@
+# Eu quero fazer uma reserva
+
+
+ Suj -> Eu
+ Verb -> Fazer, Realizar, Querer, Reservar, Pagar
+ Obj -> Quarto, Suit, Dormitorio, Check-in, Check-out, Boleto
