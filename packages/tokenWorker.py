@@ -6,6 +6,10 @@ class TokenWorker:
     self.__currentToken = []
     self.__currentTokenIdentifyer = []
 
+  @property
+  def token (self):
+    return self.__currentTokenIdentifyer
+
   def GenerateToken(self, phrase):
     phrase = phrase.upper()
 
