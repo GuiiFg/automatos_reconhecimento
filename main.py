@@ -1,3 +1,4 @@
+# pip install "git+https://github.com/GuiiFg/TuringMachine.git"
 from TuringMachine.automatons import HotelOrderRecognizeAutomaton
 from TuringMachine import TuringMachine
 from TuringMachine.TokenWorker import TokenWorker
