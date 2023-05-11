@@ -16,5 +16,4 @@ tMachine.automatons['OrderRecognize'] = HotelOrderRecognizeAutomaton()
 
 tMachine.run('OrderRecognize')
 
-
-# TODO: tkWorker.ProccessToken(frase) 
+# TODO: ProccessToken(frase)

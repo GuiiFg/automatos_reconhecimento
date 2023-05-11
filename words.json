@@ -1,20 +1,29 @@
 {
   "__suj__" : [
-    "Eu"
+    "EU"
   ],
   "__verb__" : [
-    "Fazer", 
-    "Realizar", 
-    "Querer", 
-    "Reservar", 
-    "Pagar"
+    "FAZER", 
+    "REALIZAR", 
+    "QUERER", 
+    "QUERO", 
+    "QUERIA", 
+    "RESERVAR", 
+    "PAGAR"
   ],
   "__obj__" : [
-    "Quarto", 
-    "Suit", 
-    "Dormitorio", 
-    "Check-in", 
-    "Check-out",
-    "Boleto"
+    "QUARTO", 
+    "RESERVA", 
+    "SUIT", 
+    "DORMITORIO", 
+    "CHECK-IN", 
+    "CHECK-OUT",
+    "BOLETO"
+  ],
+  "__pron__" : [
+    "A", 
+    "O", 
+    "UM", 
+    "UMA"
   ]
 }
