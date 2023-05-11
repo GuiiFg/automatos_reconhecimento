@@ -1,11 +1,15 @@
 from TuringMachine.automatons import HotelOrderRecognizeAutomaton
 from TuringMachine import TuringMachine
 from TuringMachine.TokenWorker import TokenWorker
+import json
+
+with open('words.json') as json_file: 
+    dicionary = json.load(json_file)
+
 
 frase = input("Oq deseja? ")
 
 # importar o dicionario de palavras
-dicionary = None
 tkWorker = TokenWorker(dicionary)
 
 tMachine = TuringMachine()
