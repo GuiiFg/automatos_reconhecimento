@@ -1,15 +1,20 @@
-import packages as pkg
+from TuringMachine.automatons import HotelOrderRecognizeAutomaton
+from TuringMachine import TuringMachine
+from TuringMachine.TokenWorker import TokenWorker
 
 frase = input("Oq deseja? ")
 
-tkWorker = pkg.TokenWorker()
+# importar o dicionario de palavras
+dicionary = None
+tkWorker = TokenWorker(dicionary)
 
-tkWorker.GenerateToken(frase) 
+tMachine = TuringMachine()
 
-coil = ['<'] + tkWorker.token
+tMachine.coil = ['<'] + tkWorker.GenerateTokensWithPhrase(frase) 
 
-automaton = pkg.TuringMachine.HotelOrderRecognizeAutomaton()
+tMachine.automatons['OrderRecognize'] = HotelOrderRecognizeAutomaton()
 
-isValid = pkg.Reconhecimento(automaton, coil)
+tMachine.run('OrderRecognize')
+
 
 # TODO: tkWorker.ProccessToken(frase) 
