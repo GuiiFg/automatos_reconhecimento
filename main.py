@@ -21,4 +21,8 @@ tMachine.automatons['OrderRecognize'] = HotelOrderRecognizeAutomaton()
 
 tMachine.run('OrderRecognize')
 
-# TODO: ProccessToken(frase)
+if tMachine.automatons['OrderRecognize'].isFinalState:
+    # TODO: ProccessToken(frase)
+    print('Entendi')
+else:
+    print('Não entendi, poderia repetir?')
