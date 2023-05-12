@@ -15,7 +15,7 @@ tkWorker = TokenWorker(dicionary)
 
 tMachine = TuringMachine()
 
-tMachine.coil = ['<'] + tkWorker.GenerateTokensWithPhrase(frase) 
+tMachine.coil = tkWorker.GenerateTokensWithPhrase(frase) 
 
 tMachine.automatons['OrderRecognize'] = HotelOrderRecognizeAutomaton()
 
