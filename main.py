@@ -5,7 +5,7 @@ from TuringMachine.TokenWorker import TokenWorker
 import json
 
 with open('words.json') as json_file: 
-    dicionary = json.load(json_file)
+  dicionary = json.load(json_file)
 
 
 frase = input("Oq deseja? ")
@@ -22,7 +22,7 @@ tMachine.automatons['OrderRecognize'] = HotelOrderRecognizeAutomaton()
 tMachine.run('OrderRecognize')
 
 if tMachine.automatons['OrderRecognize'].isFinalState:
-    # TODO: ProccessToken(frase)
-    print('Entendi')
+  # TODO: ProccessToken(frase)
+  print('Entendi')
 else:
-    print('Não entendi, poderia repetir?')
+  print('Não entendi, poderia repetir?')
