@@ -9,6 +9,13 @@ def selectKey(tokens:list, keys:list):
 
   keys.reverse()
   tokens.reverse()
+  
+  
+  if None in keys: 
+    keys.remove(None)
+  
+  if None in tokens: 
+    tokens.remove(None)
 
   __obj = None
   __verb = None
