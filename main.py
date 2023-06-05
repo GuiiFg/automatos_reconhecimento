@@ -37,7 +37,19 @@ input_teste = [
   'Eu quero pagar uma conta',
   'Eu quero fazer check-in',
   'Eu desejo fazer check-in',
-  'Eu quero fazer check-out'
+  'Eu quero fazer check-out',
+  'Eu desejo fazer uma reserva',
+  'Ele deseja uma banheira',
+  'Eu quero solicitar uma reserva',
+  'Ele deseja um jantar',
+  'Nós desejamos agendar uma reserva',
+  'Ele deseja um jantar',
+  'Ela deseja uma suit para descansar',
+  'Ela deseja teu chuveiro',
+  'Eles querem confirmar a reserva',
+  'Elas querem aproveitar a piscina',
+  'Eles querem aproveitar a academia',
+  'Ele deseja usar o estacionamento'
 ]
 
 tkWorker = TokenWorker(dicionary)
